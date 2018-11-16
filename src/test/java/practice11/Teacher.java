@@ -50,11 +50,11 @@ public class Teacher {
     }
 
     public void knowStudentIn(Student student){
-        System.out.print("My name is " + name + ". I know " + student.getName() + " has joined Class " + student.getKlass().getNumber()+ ".");
+        System.out.print("I am " + name + ". I know " + student.getName() + " has joined Class " + student.getKlass().getNumber()+ ".\n");
     }
 
     public void knowStudentLeader(Student student){
-        System.out.print("My name is " + name + ". I know " + student.getName() + " become Leader of Class " + student.getKlass().getNumber()+ ".");
+        System.out.print("I am " + name + ". I know " + student.getName() + " become Leader of Class " + student.getKlass().getNumber()+ ".\n");
     }
 
     public String introduceWith(Student student){

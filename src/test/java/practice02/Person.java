@@ -1,6 +1,6 @@
-package practice01;
+package practice02;
 
-public class Person {
+public class Person{
     private String name;
     private int age;
     private int classNum;
@@ -15,6 +15,6 @@ public class Person {
         return age;
     }
     public String introduce(){
-        return "My name is " + name + " I am " + age + " years old.";
+        return "My name is " + name + ". I am " + age + " years old.";
     }
 }
